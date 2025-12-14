@@ -117,3 +117,15 @@ footer {
   display: block;
   margin: 0 auto 8px; /* tengah + jarak bawah */
 }
+ header {
+  text-align: center;
+  padding: 16px 12px;
+}
+
+header .logo {
+  max-width: 120px;   /* BATAS AMAN DI HP */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
