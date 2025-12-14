@@ -195,48 +195,44 @@ header p {
   opacity: 0.9;
 }
  /* ===============================
-   SECTION PRODUK
+   PRODUK UNGGULAN (FIX SIMETRIS)
 ================================ */
-
-#produk {
-  padding: 20px;
-}
 
 .produk {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
+  padding: 20px;
 }
 
-/* Card produk */
 .produk-item {
   background: #f4f4f4;
-  border-radius: 14px;
-  padding: 15px;
+  border-radius: 16px;
+  padding: 16px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 }
 
-/* Gambar produk agar simetris */
-.produk-item img {
+/* Pembungkus gambar */
+.produk-img {
   width: 100%;
-  max-width: 280px;
-  height: 180px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+/* Gambar banner jadi rapi */
+.produk-img img {
+  max-width: 90%;
+  max-height: 100%;
   object-fit: contain;
-  display: block;
-  margin: 0 auto 12px;
 }
 
-/* Judul produk */
-.produk-item h3 {
-  font-size: 18px;
-  margin-bottom: 8px;
-  color: #222;
-}
-
-/* Deskripsi produk */
 .produk-item p {
   font-size: 14px;
-  color: #555;
   line-height: 1.5;
+  color: #444;
 }
