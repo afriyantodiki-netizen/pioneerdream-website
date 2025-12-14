@@ -236,3 +236,46 @@ header p {
   line-height: 1.5;
   color: #444;
 }
+/* =========================
+   HEADER / HERO SECTION
+========================= */
+
+.hero {
+  background: linear-gradient(135deg, #0f9d58, #1e7f5c);
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.hero .tagline {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  opacity: 0.95;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #ffffff;
+  color: #0f9d58;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #f1f1f1;
+  transform: translateY(-2px);
+}
