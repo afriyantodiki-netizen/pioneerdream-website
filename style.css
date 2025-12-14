@@ -75,15 +75,12 @@ footer {
   box-shadow: 0 3px 8px rgba(0,0,0,0.08);
   text-align: center;
 }
-
 .produk img {
   width: 100%;
-  max-height: 110px;   /* LEBIH KECIL LAGI */
-  object-fit: contain;
-  display: block;
-  margin: 0 auto 8px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
 }
-
 .produk p {
   font-size: 13px;
   line-height: 1.4;
