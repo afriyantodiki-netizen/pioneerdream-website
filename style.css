@@ -178,3 +178,19 @@ header .logo {
     font-size: 14px;
   }
 }
+header {
+  text-align: center;
+  padding: 20px 10px;
+  background: #0a2540;
+  color: white;
+}
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
