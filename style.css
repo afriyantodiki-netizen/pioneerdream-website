@@ -283,26 +283,22 @@ header p {
    FLOATING WHATSAPP BUTTON
 ========================= */
 
+/* FLOATING WHATSAPP BUTTON */
 .wa-float {
   position: fixed;
-  bottom: 14px;
-  right: 14px;
-  width: 42px;
-  height: 42px;
+  bottom: 15px;
+  right: 15px;
+  width: 40px !important;
+  height: 40px !important;
   background-color: #25d366;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
-  z-index: 999;
+  z-index: 9999;
 }
 
 .wa-float img {
-  width: 20px;
-  height: 20px;
-}
-
-.wa-float:hover {
-  transform: scale(1.02);
+  width: 18px !important;
+  height: 18px !important;
 }
