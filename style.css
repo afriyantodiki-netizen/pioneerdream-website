@@ -129,3 +129,27 @@ header .logo {
   display: block;
   margin: 0 auto 10px;
 }
+ /* ===== FIX TAMPILAN MOBILE ===== */
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    padding: 16px 10px;
+  }
+
+  header .logo {
+    max-width: 90px;   /* ukuran ideal logo di HP */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 8px;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin: 6px 0;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+}
