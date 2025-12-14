@@ -304,3 +304,29 @@ header p {
 .wa-float:hover {
   transform: scale(1.05);
 }
+/* FLOATING WHATSAPP BUTTON */
+.wa-float {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  width: 56px;
+  height: 56px;
+  background-color: #25d366;
+  border-radius: 50%;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.wa-float::before {
+  content: "☎";
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wa-float:hover {
+  transform: scale(1.1);
+}
